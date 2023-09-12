@@ -1,0 +1,11 @@
+def e_primo(num):
+    for div in range(2, num):
+        if num % div == 0:
+            print("Não é primo")
+            break
+    else:
+        print("É primo!")
+
+
+e_primo(5)
+e_primo(3)
